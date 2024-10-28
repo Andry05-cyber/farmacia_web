@@ -1,4 +1,3 @@
-/* Estilos básicos */
 body {
     font-family: 'Arial', sans-serif;
     color: #444;
@@ -7,27 +6,25 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Encabezado */
 header {
-    background-color: #8B0000; /* Color counchúvino (Burdeos) */
+    background-color: #8B0000;
     color: white;
     padding: 1.5em 0;
-    text-align: left; /* Alineación a la izquierda */
-    padding-left: 20px; /* Espacio a la izquierda */
-    position: relative; /* Para efectos de movimiento */
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
 }
 
 .header-container h1 {
     margin: 0;
     font-size: 2.5em;
-    animation: moveTitle 2s infinite alternate; /* Animación de movimiento */
+    animation: moveTitle 2s infinite alternate;
 }
 
 .header-container p {
     font-size: 1.2em;
 }
 
-/* Efecto de movimiento del título */
 @keyframes moveTitle {
     0% {
         transform: translateY(0);
@@ -37,10 +34,9 @@ header {
     }
 }
 
-/* Navegación */
 nav ul {
     list-style-type: none;
-    background-color: #A52A2A; /* Color más claro para la barra de navegación */
+    background-color: #A52A2A;
     padding: 0.5em;
     display: flex;
 }
@@ -55,10 +51,9 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Secciones principales */
 main {
     padding: 2em;
-    text-align: left; /* Alineación a la izquierda */
+    text-align: left;
 }
 
 section {
@@ -70,14 +65,13 @@ section {
 }
 
 h2 {
-    color: #8B0000; /* Color counchúvino */
+    color: #8B0000;
 }
 
-/* Pie de página */
 footer {
-    background-color: #A52A2A; /* Color más claro para el pie de página */
+    background-color: #A52A2A;
     color: white;
-    text-align: left; /* Alineación a la izquierda */
-    padding: 1em 20px; /* Espacio a la izquierda */
+    text-align: left;
+    padding: 1em 20px;
     margin-top: 2em;
 }
